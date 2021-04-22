@@ -1,0 +1,745 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow|Tomorrow:400,700&display=swap");
+:root {
+  --yellow-color: #303030;
+  --red-color: #ff003c;
+  --black-color: #00f7ff;
+  --blue-color: #00f0ff;
+  --white-color: #fafafa;
+}
+
+.film-container-1,
+.film-container-2,
+.film-container-3,
+.film-container-4,
+.film-container-5,
+.film-container-6 {
+  height: auto;
+  width: 65%;
+}
+
+.film-container-1 .film-container-top,
+.film-container-2 .film-container-top,
+.film-container-3 .film-container-top,
+.film-container-4 .film-container-top,
+.film-container-5 .film-container-top,
+.film-container-6 .film-container-top {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.film-container-1 .film-container-top .container-top-name-game-1,
+.film-container-1 .film-container-top .container-top-name-game-2,
+.film-container-1 .film-container-top .container-top-name-game-3,
+.film-container-1 .film-container-top .container-top-name-game-4,
+.film-container-1 .film-container-top .container-top-name-game-5,
+.film-container-1 .film-container-top .container-top-name-game-6,
+.film-container-2 .film-container-top .container-top-name-game-1,
+.film-container-2 .film-container-top .container-top-name-game-2,
+.film-container-2 .film-container-top .container-top-name-game-3,
+.film-container-2 .film-container-top .container-top-name-game-4,
+.film-container-2 .film-container-top .container-top-name-game-5,
+.film-container-2 .film-container-top .container-top-name-game-6,
+.film-container-3 .film-container-top .container-top-name-game-1,
+.film-container-3 .film-container-top .container-top-name-game-2,
+.film-container-3 .film-container-top .container-top-name-game-3,
+.film-container-3 .film-container-top .container-top-name-game-4,
+.film-container-3 .film-container-top .container-top-name-game-5,
+.film-container-3 .film-container-top .container-top-name-game-6,
+.film-container-4 .film-container-top .container-top-name-game-1,
+.film-container-4 .film-container-top .container-top-name-game-2,
+.film-container-4 .film-container-top .container-top-name-game-3,
+.film-container-4 .film-container-top .container-top-name-game-4,
+.film-container-4 .film-container-top .container-top-name-game-5,
+.film-container-4 .film-container-top .container-top-name-game-6,
+.film-container-5 .film-container-top .container-top-name-game-1,
+.film-container-5 .film-container-top .container-top-name-game-2,
+.film-container-5 .film-container-top .container-top-name-game-3,
+.film-container-5 .film-container-top .container-top-name-game-4,
+.film-container-5 .film-container-top .container-top-name-game-5,
+.film-container-5 .film-container-top .container-top-name-game-6,
+.film-container-6 .film-container-top .container-top-name-game-1,
+.film-container-6 .film-container-top .container-top-name-game-2,
+.film-container-6 .film-container-top .container-top-name-game-3,
+.film-container-6 .film-container-top .container-top-name-game-4,
+.film-container-6 .film-container-top .container-top-name-game-5,
+.film-container-6 .film-container-top .container-top-name-game-6 {
+  color: #00f7ff;
+  font-weight: bold;
+  margin-left: 25px;
+  text-decoration: none;
+}
+
+.film-container-1 .film-container-top .container-top-name-game-1:hover,
+.film-container-1 .film-container-top .container-top-name-game-2:hover,
+.film-container-1 .film-container-top .container-top-name-game-3:hover,
+.film-container-1 .film-container-top .container-top-name-game-4:hover,
+.film-container-1 .film-container-top .container-top-name-game-5:hover,
+.film-container-1 .film-container-top .container-top-name-game-6:hover,
+.film-container-2 .film-container-top .container-top-name-game-1:hover,
+.film-container-2 .film-container-top .container-top-name-game-2:hover,
+.film-container-2 .film-container-top .container-top-name-game-3:hover,
+.film-container-2 .film-container-top .container-top-name-game-4:hover,
+.film-container-2 .film-container-top .container-top-name-game-5:hover,
+.film-container-2 .film-container-top .container-top-name-game-6:hover,
+.film-container-3 .film-container-top .container-top-name-game-1:hover,
+.film-container-3 .film-container-top .container-top-name-game-2:hover,
+.film-container-3 .film-container-top .container-top-name-game-3:hover,
+.film-container-3 .film-container-top .container-top-name-game-4:hover,
+.film-container-3 .film-container-top .container-top-name-game-5:hover,
+.film-container-3 .film-container-top .container-top-name-game-6:hover,
+.film-container-4 .film-container-top .container-top-name-game-1:hover,
+.film-container-4 .film-container-top .container-top-name-game-2:hover,
+.film-container-4 .film-container-top .container-top-name-game-3:hover,
+.film-container-4 .film-container-top .container-top-name-game-4:hover,
+.film-container-4 .film-container-top .container-top-name-game-5:hover,
+.film-container-4 .film-container-top .container-top-name-game-6:hover,
+.film-container-5 .film-container-top .container-top-name-game-1:hover,
+.film-container-5 .film-container-top .container-top-name-game-2:hover,
+.film-container-5 .film-container-top .container-top-name-game-3:hover,
+.film-container-5 .film-container-top .container-top-name-game-4:hover,
+.film-container-5 .film-container-top .container-top-name-game-5:hover,
+.film-container-5 .film-container-top .container-top-name-game-6:hover,
+.film-container-6 .film-container-top .container-top-name-game-1:hover,
+.film-container-6 .film-container-top .container-top-name-game-2:hover,
+.film-container-6 .film-container-top .container-top-name-game-3:hover,
+.film-container-6 .film-container-top .container-top-name-game-4:hover,
+.film-container-6 .film-container-top .container-top-name-game-5:hover,
+.film-container-6 .film-container-top .container-top-name-game-6:hover {
+  color: #e5feff;
+}
+
+.film-container-1 .film-container-content,
+.film-container-2 .film-container-content,
+.film-container-3 .film-container-content,
+.film-container-4 .film-container-content,
+.film-container-5 .film-container-content,
+.film-container-6 .film-container-content {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: auto;
+}
+
+.film-container-1 .film-container-content .film-container-about,
+.film-container-2 .film-container-content .film-container-about,
+.film-container-3 .film-container-content .film-container-about,
+.film-container-4 .film-container-content .film-container-about,
+.film-container-5 .film-container-content .film-container-about,
+.film-container-6 .film-container-content .film-container-about {
+  margin: 0px 0px 20px 0px;
+}
+
+.film-container-1 .film-container-content .img-bubble,
+.film-container-2 .film-container-content .img-bubble,
+.film-container-3 .film-container-content .img-bubble,
+.film-container-4 .film-container-content .img-bubble,
+.film-container-5 .film-container-content .img-bubble,
+.film-container-6 .film-container-content .img-bubble {
+  margin: 30px 0px 30px 0px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.film-container-1 .film-container-content .img-bubble .film-container-img,
+.film-container-2 .film-container-content .img-bubble .film-container-img,
+.film-container-3 .film-container-content .img-bubble .film-container-img,
+.film-container-4 .film-container-content .img-bubble .film-container-img,
+.film-container-5 .film-container-content .img-bubble .film-container-img,
+.film-container-6 .film-container-content .img-bubble .film-container-img {
+  display: block;
+  margin: auto;
+  width: 95%;
+}
+
+.film-container-1 .film-container-content .steam-button-1,
+.film-container-1 .film-container-content .steam-button-2,
+.film-container-1 .film-container-content .steam-button-3,
+.film-container-1 .film-container-content .steam-button-4,
+.film-container-1 .film-container-content .steam-button-5,
+.film-container-1 .film-container-content .steam-button-6,
+.film-container-2 .film-container-content .steam-button-1,
+.film-container-2 .film-container-content .steam-button-2,
+.film-container-2 .film-container-content .steam-button-3,
+.film-container-2 .film-container-content .steam-button-4,
+.film-container-2 .film-container-content .steam-button-5,
+.film-container-2 .film-container-content .steam-button-6,
+.film-container-3 .film-container-content .steam-button-1,
+.film-container-3 .film-container-content .steam-button-2,
+.film-container-3 .film-container-content .steam-button-3,
+.film-container-3 .film-container-content .steam-button-4,
+.film-container-3 .film-container-content .steam-button-5,
+.film-container-3 .film-container-content .steam-button-6,
+.film-container-4 .film-container-content .steam-button-1,
+.film-container-4 .film-container-content .steam-button-2,
+.film-container-4 .film-container-content .steam-button-3,
+.film-container-4 .film-container-content .steam-button-4,
+.film-container-4 .film-container-content .steam-button-5,
+.film-container-4 .film-container-content .steam-button-6,
+.film-container-5 .film-container-content .steam-button-1,
+.film-container-5 .film-container-content .steam-button-2,
+.film-container-5 .film-container-content .steam-button-3,
+.film-container-5 .film-container-content .steam-button-4,
+.film-container-5 .film-container-content .steam-button-5,
+.film-container-5 .film-container-content .steam-button-6,
+.film-container-6 .film-container-content .steam-button-1,
+.film-container-6 .film-container-content .steam-button-2,
+.film-container-6 .film-container-content .steam-button-3,
+.film-container-6 .film-container-content .steam-button-4,
+.film-container-6 .film-container-content .steam-button-5,
+.film-container-6 .film-container-content .steam-button-6 {
+  margin: 0px 0px 40px 0px;
+  width: 220px;
+  height: 60px;
+  border: 0;
+  outline: none;
+  background-color: var(--black-color);
+  cursor: pointer;
+  position: relative;
+  font-family: "Exo 2", sans-serif;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  color: var(--black-color);
+  -webkit-clip-path: polygon(92% 0, 100% 25%, 100% 100%, 8% 100%, 0% 75%, 0 0);
+          clip-path: polygon(92% 0, 100% 25%, 100% 100%, 8% 100%, 0% 75%, 0 0);
+  z-index: 0;
+}
+
+.film-container-1 .film-container-content .btn__content,
+.film-container-2 .film-container-content .btn__content,
+.film-container-3 .film-container-content .btn__content,
+.film-container-4 .film-container-content .btn__content,
+.film-container-5 .film-container-content .btn__content,
+.film-container-6 .film-container-content .btn__content {
+  color: #00f7ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+  background-color: var(--yellow-color);
+  -webkit-clip-path: polygon(92% 0, 100% 25%, 100% 100%, 8% 100%, 0% 75%, 0 0);
+          clip-path: polygon(92% 0, 100% 25%, 100% 100%, 8% 100%, 0% 75%, 0 0);
+  font-weight: 700;
+}
+
+.film-container-1 .film-container-content .btn__content:hover,
+.film-container-2 .film-container-content .btn__content:hover,
+.film-container-3 .film-container-content .btn__content:hover,
+.film-container-4 .film-container-content .btn__content:hover,
+.film-container-5 .film-container-content .btn__content:hover,
+.film-container-6 .film-container-content .btn__content:hover {
+  color: #e5feff;
+}
+
+.film-container-1 .film-container-content .btn__glitch,
+.film-container-2 .film-container-content .btn__glitch,
+.film-container-3 .film-container-content .btn__glitch,
+.film-container-4 .film-container-content .btn__glitch,
+.film-container-5 .film-container-content .btn__glitch,
+.film-container-6 .film-container-content .btn__glitch {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--yellow-color);
+  -webkit-filter: drop-shadow(-2px 3px #67e3f3) drop-shadow(-1px -3px #02d8f3) drop-shadow(2px 1px #02d8f3);
+          filter: drop-shadow(-2px 3px #67e3f3) drop-shadow(-1px -3px #02d8f3) drop-shadow(2px 1px #02d8f3);
+}
+
+.film-container-1 .film-container-content .steam-button-1:hover .btn__glitch,
+.film-container-1 .film-container-content .steam-button-2:hover .btn__glitch,
+.film-container-1 .film-container-content .steam-button-3:hover .btn__glitch,
+.film-container-1 .film-container-content .steam-button-4:hover .btn__glitch,
+.film-container-1 .film-container-content .steam-button-5:hover .btn__glitch,
+.film-container-1 .film-container-content .steam-button-6:hover .btn__glitch,
+.film-container-1 .film-container-content .steam-button-1:hover .btn__content::after,
+.film-container-1 .film-container-content .steam-button-2:hover .btn__content::after,
+.film-container-1 .film-container-content .steam-button-3:hover .btn__content::after,
+.film-container-1 .film-container-content .steam-button-4:hover .btn__content::after,
+.film-container-1 .film-container-content .steam-button-5:hover .btn__content::after,
+.film-container-1 .film-container-content .steam-button-6:hover .btn__content::after,
+.film-container-1 .film-container-content .steam-button-1:focus .btn__glitch,
+.film-container-1 .film-container-content .steam-button-2:focus .btn__glitch,
+.film-container-1 .film-container-content .steam-button-3:focus .btn__glitch,
+.film-container-1 .film-container-content .steam-button-4:focus .btn__glitch,
+.film-container-1 .film-container-content .steam-button-5:focus .btn__glitch,
+.film-container-1 .film-container-content .steam-button-6:focus .btn__glitch,
+.film-container-1 .film-container-content .steam-button-1:focus .btn__content::after,
+.film-container-1 .film-container-content .steam-button-2:focus .btn__content::after,
+.film-container-1 .film-container-content .steam-button-3:focus .btn__content::after,
+.film-container-1 .film-container-content .steam-button-4:focus .btn__content::after,
+.film-container-1 .film-container-content .steam-button-5:focus .btn__content::after,
+.film-container-1 .film-container-content .steam-button-6:focus .btn__content::after,
+.film-container-2 .film-container-content .steam-button-1:hover .btn__glitch,
+.film-container-2 .film-container-content .steam-button-2:hover .btn__glitch,
+.film-container-2 .film-container-content .steam-button-3:hover .btn__glitch,
+.film-container-2 .film-container-content .steam-button-4:hover .btn__glitch,
+.film-container-2 .film-container-content .steam-button-5:hover .btn__glitch,
+.film-container-2 .film-container-content .steam-button-6:hover .btn__glitch,
+.film-container-2 .film-container-content .steam-button-1:hover .btn__content::after,
+.film-container-2 .film-container-content .steam-button-2:hover .btn__content::after,
+.film-container-2 .film-container-content .steam-button-3:hover .btn__content::after,
+.film-container-2 .film-container-content .steam-button-4:hover .btn__content::after,
+.film-container-2 .film-container-content .steam-button-5:hover .btn__content::after,
+.film-container-2 .film-container-content .steam-button-6:hover .btn__content::after,
+.film-container-2 .film-container-content .steam-button-1:focus .btn__glitch,
+.film-container-2 .film-container-content .steam-button-2:focus .btn__glitch,
+.film-container-2 .film-container-content .steam-button-3:focus .btn__glitch,
+.film-container-2 .film-container-content .steam-button-4:focus .btn__glitch,
+.film-container-2 .film-container-content .steam-button-5:focus .btn__glitch,
+.film-container-2 .film-container-content .steam-button-6:focus .btn__glitch,
+.film-container-2 .film-container-content .steam-button-1:focus .btn__content::after,
+.film-container-2 .film-container-content .steam-button-2:focus .btn__content::after,
+.film-container-2 .film-container-content .steam-button-3:focus .btn__content::after,
+.film-container-2 .film-container-content .steam-button-4:focus .btn__content::after,
+.film-container-2 .film-container-content .steam-button-5:focus .btn__content::after,
+.film-container-2 .film-container-content .steam-button-6:focus .btn__content::after,
+.film-container-3 .film-container-content .steam-button-1:hover .btn__glitch,
+.film-container-3 .film-container-content .steam-button-2:hover .btn__glitch,
+.film-container-3 .film-container-content .steam-button-3:hover .btn__glitch,
+.film-container-3 .film-container-content .steam-button-4:hover .btn__glitch,
+.film-container-3 .film-container-content .steam-button-5:hover .btn__glitch,
+.film-container-3 .film-container-content .steam-button-6:hover .btn__glitch,
+.film-container-3 .film-container-content .steam-button-1:hover .btn__content::after,
+.film-container-3 .film-container-content .steam-button-2:hover .btn__content::after,
+.film-container-3 .film-container-content .steam-button-3:hover .btn__content::after,
+.film-container-3 .film-container-content .steam-button-4:hover .btn__content::after,
+.film-container-3 .film-container-content .steam-button-5:hover .btn__content::after,
+.film-container-3 .film-container-content .steam-button-6:hover .btn__content::after,
+.film-container-3 .film-container-content .steam-button-1:focus .btn__glitch,
+.film-container-3 .film-container-content .steam-button-2:focus .btn__glitch,
+.film-container-3 .film-container-content .steam-button-3:focus .btn__glitch,
+.film-container-3 .film-container-content .steam-button-4:focus .btn__glitch,
+.film-container-3 .film-container-content .steam-button-5:focus .btn__glitch,
+.film-container-3 .film-container-content .steam-button-6:focus .btn__glitch,
+.film-container-3 .film-container-content .steam-button-1:focus .btn__content::after,
+.film-container-3 .film-container-content .steam-button-2:focus .btn__content::after,
+.film-container-3 .film-container-content .steam-button-3:focus .btn__content::after,
+.film-container-3 .film-container-content .steam-button-4:focus .btn__content::after,
+.film-container-3 .film-container-content .steam-button-5:focus .btn__content::after,
+.film-container-3 .film-container-content .steam-button-6:focus .btn__content::after,
+.film-container-4 .film-container-content .steam-button-1:hover .btn__glitch,
+.film-container-4 .film-container-content .steam-button-2:hover .btn__glitch,
+.film-container-4 .film-container-content .steam-button-3:hover .btn__glitch,
+.film-container-4 .film-container-content .steam-button-4:hover .btn__glitch,
+.film-container-4 .film-container-content .steam-button-5:hover .btn__glitch,
+.film-container-4 .film-container-content .steam-button-6:hover .btn__glitch,
+.film-container-4 .film-container-content .steam-button-1:hover .btn__content::after,
+.film-container-4 .film-container-content .steam-button-2:hover .btn__content::after,
+.film-container-4 .film-container-content .steam-button-3:hover .btn__content::after,
+.film-container-4 .film-container-content .steam-button-4:hover .btn__content::after,
+.film-container-4 .film-container-content .steam-button-5:hover .btn__content::after,
+.film-container-4 .film-container-content .steam-button-6:hover .btn__content::after,
+.film-container-4 .film-container-content .steam-button-1:focus .btn__glitch,
+.film-container-4 .film-container-content .steam-button-2:focus .btn__glitch,
+.film-container-4 .film-container-content .steam-button-3:focus .btn__glitch,
+.film-container-4 .film-container-content .steam-button-4:focus .btn__glitch,
+.film-container-4 .film-container-content .steam-button-5:focus .btn__glitch,
+.film-container-4 .film-container-content .steam-button-6:focus .btn__glitch,
+.film-container-4 .film-container-content .steam-button-1:focus .btn__content::after,
+.film-container-4 .film-container-content .steam-button-2:focus .btn__content::after,
+.film-container-4 .film-container-content .steam-button-3:focus .btn__content::after,
+.film-container-4 .film-container-content .steam-button-4:focus .btn__content::after,
+.film-container-4 .film-container-content .steam-button-5:focus .btn__content::after,
+.film-container-4 .film-container-content .steam-button-6:focus .btn__content::after,
+.film-container-5 .film-container-content .steam-button-1:hover .btn__glitch,
+.film-container-5 .film-container-content .steam-button-2:hover .btn__glitch,
+.film-container-5 .film-container-content .steam-button-3:hover .btn__glitch,
+.film-container-5 .film-container-content .steam-button-4:hover .btn__glitch,
+.film-container-5 .film-container-content .steam-button-5:hover .btn__glitch,
+.film-container-5 .film-container-content .steam-button-6:hover .btn__glitch,
+.film-container-5 .film-container-content .steam-button-1:hover .btn__content::after,
+.film-container-5 .film-container-content .steam-button-2:hover .btn__content::after,
+.film-container-5 .film-container-content .steam-button-3:hover .btn__content::after,
+.film-container-5 .film-container-content .steam-button-4:hover .btn__content::after,
+.film-container-5 .film-container-content .steam-button-5:hover .btn__content::after,
+.film-container-5 .film-container-content .steam-button-6:hover .btn__content::after,
+.film-container-5 .film-container-content .steam-button-1:focus .btn__glitch,
+.film-container-5 .film-container-content .steam-button-2:focus .btn__glitch,
+.film-container-5 .film-container-content .steam-button-3:focus .btn__glitch,
+.film-container-5 .film-container-content .steam-button-4:focus .btn__glitch,
+.film-container-5 .film-container-content .steam-button-5:focus .btn__glitch,
+.film-container-5 .film-container-content .steam-button-6:focus .btn__glitch,
+.film-container-5 .film-container-content .steam-button-1:focus .btn__content::after,
+.film-container-5 .film-container-content .steam-button-2:focus .btn__content::after,
+.film-container-5 .film-container-content .steam-button-3:focus .btn__content::after,
+.film-container-5 .film-container-content .steam-button-4:focus .btn__content::after,
+.film-container-5 .film-container-content .steam-button-5:focus .btn__content::after,
+.film-container-5 .film-container-content .steam-button-6:focus .btn__content::after,
+.film-container-6 .film-container-content .steam-button-1:hover .btn__glitch,
+.film-container-6 .film-container-content .steam-button-2:hover .btn__glitch,
+.film-container-6 .film-container-content .steam-button-3:hover .btn__glitch,
+.film-container-6 .film-container-content .steam-button-4:hover .btn__glitch,
+.film-container-6 .film-container-content .steam-button-5:hover .btn__glitch,
+.film-container-6 .film-container-content .steam-button-6:hover .btn__glitch,
+.film-container-6 .film-container-content .steam-button-1:hover .btn__content::after,
+.film-container-6 .film-container-content .steam-button-2:hover .btn__content::after,
+.film-container-6 .film-container-content .steam-button-3:hover .btn__content::after,
+.film-container-6 .film-container-content .steam-button-4:hover .btn__content::after,
+.film-container-6 .film-container-content .steam-button-5:hover .btn__content::after,
+.film-container-6 .film-container-content .steam-button-6:hover .btn__content::after,
+.film-container-6 .film-container-content .steam-button-1:focus .btn__glitch,
+.film-container-6 .film-container-content .steam-button-2:focus .btn__glitch,
+.film-container-6 .film-container-content .steam-button-3:focus .btn__glitch,
+.film-container-6 .film-container-content .steam-button-4:focus .btn__glitch,
+.film-container-6 .film-container-content .steam-button-5:focus .btn__glitch,
+.film-container-6 .film-container-content .steam-button-6:focus .btn__glitch,
+.film-container-6 .film-container-content .steam-button-1:focus .btn__content::after,
+.film-container-6 .film-container-content .steam-button-2:focus .btn__content::after,
+.film-container-6 .film-container-content .steam-button-3:focus .btn__content::after,
+.film-container-6 .film-container-content .steam-button-4:focus .btn__content::after,
+.film-container-6 .film-container-content .steam-button-5:focus .btn__content::after,
+.film-container-6 .film-container-content .steam-button-6:focus .btn__content::after {
+  display: block;
+  -webkit-animation: glitch-animation 2s linear 0s infinite;
+          animation: glitch-animation 2s linear 0s infinite;
+}
+
+@-webkit-keyframes glitch-animation {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    -webkit-clip-path: polygon(0 2%, 100% 2%, 100% 5%, 0 5%);
+            clip-path: polygon(0 2%, 100% 2%, 100% 5%, 0 5%);
+  }
+  2% {
+    -webkit-clip-path: polygon(0 78%, 100% 78%, 100% 100%, 0 100%);
+            clip-path: polygon(0 78%, 100% 78%, 100% 100%, 0 100%);
+    -webkit-transform: translate(-5px);
+            transform: translate(-5px);
+  }
+  6% {
+    -webkit-clip-path: polygon(0 78%, 100% 78%, 100% 100%, 0 100%);
+            clip-path: polygon(0 78%, 100% 78%, 100% 100%, 0 100%);
+    -webkit-transform: translate(5px);
+            transform: translate(5px);
+  }
+  8% {
+    -webkit-clip-path: polygon(0 78%, 100% 78%, 100% 100%, 0 100%);
+            clip-path: polygon(0 78%, 100% 78%, 100% 100%, 0 100%);
+    -webkit-transform: translate(-5px);
+            transform: translate(-5px);
+  }
+  9% {
+    -webkit-clip-path: polygon(0 78%, 100% 78%, 100% 100%, 0 100%);
+            clip-path: polygon(0 78%, 100% 78%, 100% 100%, 0 100%);
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  10% {
+    -webkit-clip-path: polygon(0 54%, 100% 54%, 100% 44%, 0 44%);
+            clip-path: polygon(0 54%, 100% 54%, 100% 44%, 0 44%);
+    -webkit-transform: translate3d(5px, 0, 0);
+            transform: translate3d(5px, 0, 0);
+  }
+  13% {
+    -webkit-clip-path: polygon(0 54%, 100% 54%, 100% 44%, 0 44%);
+            clip-path: polygon(0 54%, 100% 54%, 100% 44%, 0 44%);
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+  }
+  13.1% {
+    -webkit-clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+            clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+    -webkit-transform: translate3d(5px, 0, 0);
+            transform: translate3d(5px, 0, 0);
+  }
+  15% {
+    -webkit-clip-path: polygon(0 60%, 100% 60%, 100% 40%, 0 40%);
+            clip-path: polygon(0 60%, 100% 60%, 100% 40%, 0 40%);
+    -webkit-transform: translate3d(5px, 0, 0);
+            transform: translate3d(5px, 0, 0);
+  }
+  20% {
+    -webkit-clip-path: polygon(0 60%, 100% 60%, 100% 40%, 0 40%);
+            clip-path: polygon(0 60%, 100% 60%, 100% 40%, 0 40%);
+    -webkit-transform: translate3d(-5px, 0, 0);
+            transform: translate3d(-5px, 0, 0);
+  }
+  20.1% {
+    -webkit-clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+            clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+    -webkit-transform: translate3d(5px, 0, 0);
+            transform: translate3d(5px, 0, 0);
+  }
+  25% {
+    -webkit-clip-path: polygon(0 85%, 100% 85%, 100% 40%, 0 40%);
+            clip-path: polygon(0 85%, 100% 85%, 100% 40%, 0 40%);
+    -webkit-transform: translate3d(5px, 0, 0);
+            transform: translate3d(5px, 0, 0);
+  }
+  30% {
+    -webkit-clip-path: polygon(0 85%, 100% 85%, 100% 40%, 0 40%);
+            clip-path: polygon(0 85%, 100% 85%, 100% 40%, 0 40%);
+    -webkit-transform: translate3d(-5px, 0, 0);
+            transform: translate3d(-5px, 0, 0);
+  }
+  30.1% {
+    -webkit-clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+            clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+  }
+  35% {
+    -webkit-clip-path: polygon(0 63%, 100% 63%, 100% 80%, 0 80%);
+            clip-path: polygon(0 63%, 100% 63%, 100% 80%, 0 80%);
+    -webkit-transform: translate(-5px);
+            transform: translate(-5px);
+  }
+  40% {
+    -webkit-clip-path: polygon(0 63%, 100% 63%, 100% 80%, 0 80%);
+            clip-path: polygon(0 63%, 100% 63%, 100% 80%, 0 80%);
+    -webkit-transform: translate(5px);
+            transform: translate(5px);
+  }
+  45% {
+    -webkit-clip-path: polygon(0 63%, 100% 63%, 100% 80%, 0 80%);
+            clip-path: polygon(0 63%, 100% 63%, 100% 80%, 0 80%);
+    -webkit-transform: translate(-5px);
+            transform: translate(-5px);
+  }
+  50% {
+    -webkit-clip-path: polygon(0 63%, 100% 63%, 100% 80%, 0 80%);
+            clip-path: polygon(0 63%, 100% 63%, 100% 80%, 0 80%);
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  55% {
+    -webkit-clip-path: polygon(0 10%, 100% 10%, 100% 0, 0 0);
+            clip-path: polygon(0 10%, 100% 10%, 100% 0, 0 0);
+    -webkit-transform: translate3d(5px, 0, 0);
+            transform: translate3d(5px, 0, 0);
+  }
+  60% {
+    -webkit-clip-path: polygon(0 10%, 100% 10%, 100% 0, 0 0);
+            clip-path: polygon(0 10%, 100% 10%, 100% 0, 0 0);
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+  60.1% {
+    -webkit-clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+            clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+    opacity: 1;
+  }
+  to {
+    -webkit-clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+            clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+    opacity: 1;
+  }
+}
+
+@keyframes glitch-animation {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    -webkit-clip-path: polygon(0 2%, 100% 2%, 100% 5%, 0 5%);
+            clip-path: polygon(0 2%, 100% 2%, 100% 5%, 0 5%);
+  }
+  2% {
+    -webkit-clip-path: polygon(0 78%, 100% 78%, 100% 100%, 0 100%);
+            clip-path: polygon(0 78%, 100% 78%, 100% 100%, 0 100%);
+    -webkit-transform: translate(-5px);
+            transform: translate(-5px);
+  }
+  6% {
+    -webkit-clip-path: polygon(0 78%, 100% 78%, 100% 100%, 0 100%);
+            clip-path: polygon(0 78%, 100% 78%, 100% 100%, 0 100%);
+    -webkit-transform: translate(5px);
+            transform: translate(5px);
+  }
+  8% {
+    -webkit-clip-path: polygon(0 78%, 100% 78%, 100% 100%, 0 100%);
+            clip-path: polygon(0 78%, 100% 78%, 100% 100%, 0 100%);
+    -webkit-transform: translate(-5px);
+            transform: translate(-5px);
+  }
+  9% {
+    -webkit-clip-path: polygon(0 78%, 100% 78%, 100% 100%, 0 100%);
+            clip-path: polygon(0 78%, 100% 78%, 100% 100%, 0 100%);
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  10% {
+    -webkit-clip-path: polygon(0 54%, 100% 54%, 100% 44%, 0 44%);
+            clip-path: polygon(0 54%, 100% 54%, 100% 44%, 0 44%);
+    -webkit-transform: translate3d(5px, 0, 0);
+            transform: translate3d(5px, 0, 0);
+  }
+  13% {
+    -webkit-clip-path: polygon(0 54%, 100% 54%, 100% 44%, 0 44%);
+            clip-path: polygon(0 54%, 100% 54%, 100% 44%, 0 44%);
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+  }
+  13.1% {
+    -webkit-clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+            clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+    -webkit-transform: translate3d(5px, 0, 0);
+            transform: translate3d(5px, 0, 0);
+  }
+  15% {
+    -webkit-clip-path: polygon(0 60%, 100% 60%, 100% 40%, 0 40%);
+            clip-path: polygon(0 60%, 100% 60%, 100% 40%, 0 40%);
+    -webkit-transform: translate3d(5px, 0, 0);
+            transform: translate3d(5px, 0, 0);
+  }
+  20% {
+    -webkit-clip-path: polygon(0 60%, 100% 60%, 100% 40%, 0 40%);
+            clip-path: polygon(0 60%, 100% 60%, 100% 40%, 0 40%);
+    -webkit-transform: translate3d(-5px, 0, 0);
+            transform: translate3d(-5px, 0, 0);
+  }
+  20.1% {
+    -webkit-clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+            clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+    -webkit-transform: translate3d(5px, 0, 0);
+            transform: translate3d(5px, 0, 0);
+  }
+  25% {
+    -webkit-clip-path: polygon(0 85%, 100% 85%, 100% 40%, 0 40%);
+            clip-path: polygon(0 85%, 100% 85%, 100% 40%, 0 40%);
+    -webkit-transform: translate3d(5px, 0, 0);
+            transform: translate3d(5px, 0, 0);
+  }
+  30% {
+    -webkit-clip-path: polygon(0 85%, 100% 85%, 100% 40%, 0 40%);
+            clip-path: polygon(0 85%, 100% 85%, 100% 40%, 0 40%);
+    -webkit-transform: translate3d(-5px, 0, 0);
+            transform: translate3d(-5px, 0, 0);
+  }
+  30.1% {
+    -webkit-clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+            clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+  }
+  35% {
+    -webkit-clip-path: polygon(0 63%, 100% 63%, 100% 80%, 0 80%);
+            clip-path: polygon(0 63%, 100% 63%, 100% 80%, 0 80%);
+    -webkit-transform: translate(-5px);
+            transform: translate(-5px);
+  }
+  40% {
+    -webkit-clip-path: polygon(0 63%, 100% 63%, 100% 80%, 0 80%);
+            clip-path: polygon(0 63%, 100% 63%, 100% 80%, 0 80%);
+    -webkit-transform: translate(5px);
+            transform: translate(5px);
+  }
+  45% {
+    -webkit-clip-path: polygon(0 63%, 100% 63%, 100% 80%, 0 80%);
+            clip-path: polygon(0 63%, 100% 63%, 100% 80%, 0 80%);
+    -webkit-transform: translate(-5px);
+            transform: translate(-5px);
+  }
+  50% {
+    -webkit-clip-path: polygon(0 63%, 100% 63%, 100% 80%, 0 80%);
+            clip-path: polygon(0 63%, 100% 63%, 100% 80%, 0 80%);
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  55% {
+    -webkit-clip-path: polygon(0 10%, 100% 10%, 100% 0, 0 0);
+            clip-path: polygon(0 10%, 100% 10%, 100% 0, 0 0);
+    -webkit-transform: translate3d(5px, 0, 0);
+            transform: translate3d(5px, 0, 0);
+  }
+  60% {
+    -webkit-clip-path: polygon(0 10%, 100% 10%, 100% 0, 0 0);
+            clip-path: polygon(0 10%, 100% 10%, 100% 0, 0 0);
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+  60.1% {
+    -webkit-clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+            clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+    opacity: 1;
+  }
+  to {
+    -webkit-clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+            clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 1023px) {
+  .film-container-1,
+  .film-container-2,
+  .film-container-3,
+  .film-container-4,
+  .film-container-5,
+  .film-container-6 {
+    width: 80%;
+  }
+}
+
+@media (max-width: 900px) {
+  .film-container-1 .film-container-top,
+  .film-container-2 .film-container-top,
+  .film-container-3 .film-container-top,
+  .film-container-4 .film-container-top,
+  .film-container-5 .film-container-top,
+  .film-container-6 .film-container-top {
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .film-container-1,
+  .film-container-2,
+  .film-container-3,
+  .film-container-4,
+  .film-container-5,
+  .film-container-6 {
+    width: 100%;
+  }
+  .main .main-container {
+    width: 100%;
+    padding: 0px;
+    border-top: none;
+  }
+  .film-container-1 .film-container-content .img-bubble,
+  .film-container-2 .film-container-content .img-bubble,
+  .film-container-3 .film-container-content .img-bubble,
+  .film-container-4 .film-container-content .img-bubble,
+  .film-container-5 .film-container-content .img-bubble,
+  .film-container-6 .film-container-content .img-bubble {
+    margin-top: 0px;
+  }
+  .film-container-1 .film-container-content .img-bubble .film-container-img,
+  .film-container-2 .film-container-content .img-bubble .film-container-img,
+  .film-container-3 .film-container-content .img-bubble .film-container-img,
+  .film-container-4 .film-container-content .img-bubble .film-container-img,
+  .film-container-5 .film-container-content .img-bubble .film-container-img,
+  .film-container-6 .film-container-content .img-bubble .film-container-img {
+    width: 100%;
+    border: none;
+  }
+}
+/*# sourceMappingURL=games_page.css.map */

@@ -1,0 +1,249 @@
+.main-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.film-container-1,
+.film-container-2,
+.film-container-3,
+.film-container-4,
+.film-container-5,
+.film-container-6 {
+  width: 90%;
+  height: 400px;
+  background-color: white;
+  margin-bottom: 50px;
+  border: solid 3px #00f7ff;
+  font-family: "Exo 2", sans-serif;
+}
+
+.film-container-1 .film-container-top,
+.film-container-2 .film-container-top,
+.film-container-3 .film-container-top,
+.film-container-4 .film-container-top,
+.film-container-5 .film-container-top,
+.film-container-6 .film-container-top {
+  width: 100%;
+  height: 40px;
+  background-color: #303030;
+  border-bottom: solid 3px #00f7ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #00f7ff;
+}
+
+.film-container-1 .film-container-top .container-top-name-1,
+.film-container-1 .film-container-top .container-top-name-2,
+.film-container-1 .film-container-top .container-top-name-3,
+.film-container-1 .film-container-top .container-top-name-4,
+.film-container-1 .film-container-top .container-top-name-5,
+.film-container-1 .film-container-top .container-top-name-6,
+.film-container-2 .film-container-top .container-top-name-1,
+.film-container-2 .film-container-top .container-top-name-2,
+.film-container-2 .film-container-top .container-top-name-3,
+.film-container-2 .film-container-top .container-top-name-4,
+.film-container-2 .film-container-top .container-top-name-5,
+.film-container-2 .film-container-top .container-top-name-6,
+.film-container-3 .film-container-top .container-top-name-1,
+.film-container-3 .film-container-top .container-top-name-2,
+.film-container-3 .film-container-top .container-top-name-3,
+.film-container-3 .film-container-top .container-top-name-4,
+.film-container-3 .film-container-top .container-top-name-5,
+.film-container-3 .film-container-top .container-top-name-6,
+.film-container-4 .film-container-top .container-top-name-1,
+.film-container-4 .film-container-top .container-top-name-2,
+.film-container-4 .film-container-top .container-top-name-3,
+.film-container-4 .film-container-top .container-top-name-4,
+.film-container-4 .film-container-top .container-top-name-5,
+.film-container-4 .film-container-top .container-top-name-6,
+.film-container-5 .film-container-top .container-top-name-1,
+.film-container-5 .film-container-top .container-top-name-2,
+.film-container-5 .film-container-top .container-top-name-3,
+.film-container-5 .film-container-top .container-top-name-4,
+.film-container-5 .film-container-top .container-top-name-5,
+.film-container-5 .film-container-top .container-top-name-6,
+.film-container-6 .film-container-top .container-top-name-1,
+.film-container-6 .film-container-top .container-top-name-2,
+.film-container-6 .film-container-top .container-top-name-3,
+.film-container-6 .film-container-top .container-top-name-4,
+.film-container-6 .film-container-top .container-top-name-5,
+.film-container-6 .film-container-top .container-top-name-6 {
+  color: #00f7ff;
+  font-weight: bold;
+  margin-left: 25px;
+  text-decoration: none;
+}
+
+.film-container-1 .film-container-top .container-top-name-1:hover,
+.film-container-1 .film-container-top .container-top-name-2:hover,
+.film-container-1 .film-container-top .container-top-name-3:hover,
+.film-container-1 .film-container-top .container-top-name-4:hover,
+.film-container-1 .film-container-top .container-top-name-5:hover,
+.film-container-1 .film-container-top .container-top-name-6:hover,
+.film-container-2 .film-container-top .container-top-name-1:hover,
+.film-container-2 .film-container-top .container-top-name-2:hover,
+.film-container-2 .film-container-top .container-top-name-3:hover,
+.film-container-2 .film-container-top .container-top-name-4:hover,
+.film-container-2 .film-container-top .container-top-name-5:hover,
+.film-container-2 .film-container-top .container-top-name-6:hover,
+.film-container-3 .film-container-top .container-top-name-1:hover,
+.film-container-3 .film-container-top .container-top-name-2:hover,
+.film-container-3 .film-container-top .container-top-name-3:hover,
+.film-container-3 .film-container-top .container-top-name-4:hover,
+.film-container-3 .film-container-top .container-top-name-5:hover,
+.film-container-3 .film-container-top .container-top-name-6:hover,
+.film-container-4 .film-container-top .container-top-name-1:hover,
+.film-container-4 .film-container-top .container-top-name-2:hover,
+.film-container-4 .film-container-top .container-top-name-3:hover,
+.film-container-4 .film-container-top .container-top-name-4:hover,
+.film-container-4 .film-container-top .container-top-name-5:hover,
+.film-container-4 .film-container-top .container-top-name-6:hover,
+.film-container-5 .film-container-top .container-top-name-1:hover,
+.film-container-5 .film-container-top .container-top-name-2:hover,
+.film-container-5 .film-container-top .container-top-name-3:hover,
+.film-container-5 .film-container-top .container-top-name-4:hover,
+.film-container-5 .film-container-top .container-top-name-5:hover,
+.film-container-5 .film-container-top .container-top-name-6:hover,
+.film-container-6 .film-container-top .container-top-name-1:hover,
+.film-container-6 .film-container-top .container-top-name-2:hover,
+.film-container-6 .film-container-top .container-top-name-3:hover,
+.film-container-6 .film-container-top .container-top-name-4:hover,
+.film-container-6 .film-container-top .container-top-name-5:hover,
+.film-container-6 .film-container-top .container-top-name-6:hover {
+  color: #e5feff;
+}
+
+.film-container-1 .film-container-content,
+.film-container-2 .film-container-content,
+.film-container-3 .film-container-content,
+.film-container-4 .film-container-content,
+.film-container-5 .film-container-content,
+.film-container-6 .film-container-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  height: calc(100% - 40px);
+}
+
+.film-container-1 .film-container-content .film-container-img,
+.film-container-2 .film-container-content .film-container-img,
+.film-container-3 .film-container-content .film-container-img,
+.film-container-4 .film-container-content .film-container-img,
+.film-container-5 .film-container-content .film-container-img,
+.film-container-6 .film-container-content .film-container-img {
+  border: solid 3px #00f7ff;
+  margin: 8px 8px 11px 8px;
+  image-resolution: cover;
+}
+
+.film-container-1 .film-container-content .film-container-about,
+.film-container-2 .film-container-content .film-container-about,
+.film-container-3 .film-container-content .film-container-about,
+.film-container-4 .film-container-content .film-container-about,
+.film-container-5 .film-container-content .film-container-about,
+.film-container-6 .film-container-content .film-container-about {
+  margin: 5px;
+  background-color: white;
+  width: calc(100% - 30px);
+  height: calc(100% - 10px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0px 0px 0px 5px;
+  overflow: auto;
+}
+
+.film-container-1 .film-container-content .film-container-about .container-about-before,
+.film-container-2 .film-container-content .film-container-about .container-about-before,
+.film-container-3 .film-container-content .film-container-about .container-about-before,
+.film-container-4 .film-container-content .film-container-about .container-about-before,
+.film-container-5 .film-container-content .film-container-about .container-about-before,
+.film-container-6 .film-container-content .film-container-about .container-about-before {
+  font-weight: 900;
+}
+
+.film-container-1 .film-container-content .film-container-about .container-about-before .container-about-information,
+.film-container-2 .film-container-content .film-container-about .container-about-before .container-about-information,
+.film-container-3 .film-container-content .film-container-about .container-about-before .container-about-information,
+.film-container-4 .film-container-content .film-container-about .container-about-before .container-about-information,
+.film-container-5 .film-container-content .film-container-about .container-about-before .container-about-information,
+.film-container-6 .film-container-content .film-container-about .container-about-before .container-about-information {
+  font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  .main .main-container {
+    border: none;
+    width: 100%;
+    padding: 0px;
+    margin-top: 0px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .film-container-1,
+  .film-container-2,
+  .film-container-3,
+  .film-container-4,
+  .film-container-5,
+  .film-container-6 {
+    height: auto;
+    width: calc(100% - 6px);
+  }
+  .film-container-1 .film-container-top,
+  .film-container-2 .film-container-top,
+  .film-container-3 .film-container-top,
+  .film-container-4 .film-container-top,
+  .film-container-5 .film-container-top,
+  .film-container-6 .film-container-top {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: auto;
+  }
+  .film-container-1 .film-container-content,
+  .film-container-2 .film-container-content,
+  .film-container-3 .film-container-content,
+  .film-container-4 .film-container-content,
+  .film-container-5 .film-container-content,
+  .film-container-6 .film-container-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+  }
+  .film-container-1 .film-container-content .film-container-img,
+  .film-container-2 .film-container-content .film-container-img,
+  .film-container-3 .film-container-content .film-container-img,
+  .film-container-4 .film-container-content .film-container-img,
+  .film-container-5 .film-container-content .film-container-img,
+  .film-container-6 .film-container-content .film-container-img {
+    width: 100%;
+    border: none;
+    border-bottom: solid 3px #00f7ff;
+    margin: 0px;
+  }
+}
+/*# sourceMappingURL=film_list_page.css.map */

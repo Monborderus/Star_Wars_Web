@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,oBAAoB,CAAC;EACnB,MAAM,EAAE,iBAAiB;CAC1B;;AAED,MAAM,EAAE,SAAS,EAAE,KAAK;EACtB,AAAA,KAAK,CAAC,eAAe,CAAC,aAAa,CAAC;IAClC,SAAS,EAAE,IAAI;GAChB",
+    "sources": [
+        "equipment_page.scss"
+    ],
+    "names": [],
+    "file": "equipment_page.css"
+}

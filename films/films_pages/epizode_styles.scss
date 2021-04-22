@@ -1,0 +1,32 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 100px;
+  .video-trailer {
+    background-color: black;
+    margin: 40px 0px 40px 0px;
+    width: 80%;
+    z-index: 1;
+  }
+
+  .film-description {
+    margin-bottom: 20px;
+    font-family: "Exo 2", sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-container .video-trailer {
+    width: 100%;
+  }
+}
+
+@media (max-width: 370px) {
+  .main .main-container .heading-name {
+    font-size: 28px;
+  }
+}

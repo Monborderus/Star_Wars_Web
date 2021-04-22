@@ -1,0 +1,128 @@
+$da-blue: #00f7ff;
+$lighter-blue: #99fcff;
+$text-shadow-blue: #11f1ff;
+$text-hover-blue: #e5feff;
+
+.main {
+  width: 100%;
+  height: auto;
+  background-image: url("./sources/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  font-family: "Exo 2", sans-serif;
+
+  .main-container {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 80%;
+    height: auto;
+    padding: 20px;
+    background-color: rgba($color: #ffffff, $alpha: 0.8);
+    line-height: 1.6;
+    font-size: 18px;
+    border: solid 3px $da-blue;
+  }
+
+  .heading-name {
+    margin-top: 40px;
+    font-size: 34px;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 900;
+  }
+
+  .container-paragraph {
+    font-family: "Exo 2", sans-serif;
+  }
+
+  .strong {
+    font-weight: 900;
+  }
+  .paragraph-img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(216, 217, 221);
+    border: solid 1px rgb(66, 66, 66);
+    width: 310px;
+    clear: right;
+    float: right;
+    margin: 7px 7px 7px 7px;
+    .paragraph-img-img {
+      width: 300px;
+      float: right;
+      margin: 7px 7px 7px 7px;
+    }
+
+    .paragraph-img-description {
+      margin: 7px 0 7px 7px;
+    }
+  }
+
+  .main-navigation-container {
+    margin: 20px 0px 20px 20px;
+    background-color: rgb(216, 217, 221);
+    width: 300px;
+    height: auto;
+    border: solid 1px rgb(66, 66, 66);
+    display: flex;
+    flex-direction: column;
+    padding: 7px;
+
+    .navigation-container-span {
+      font-weight: 900;
+      display: flex;
+      margin: auto;
+    }
+
+    .navigation-container-content {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+
+@media (max-width: 769px) {
+  .main .container-paragraph {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 500px) {
+  .main .paragraph-img-container {
+    width: 96%;
+  }
+
+  .main .paragraph-img-container .paragraph-img-img {
+    width: 100%;
+  }
+
+  .main .main-container {
+    width: 100%;
+    padding: 0px;
+    margin-top: 0px;
+    justify-content: center;
+  }
+
+  .main .container-paragraph {
+    padding: 15px;
+  }
+
+  .main .main-container .heading-name {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 370px) {
+  .main .main-container .heading-name {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 350px) {
+  .main .main-navigation-container {
+    width: 250px;
+  }
+}
